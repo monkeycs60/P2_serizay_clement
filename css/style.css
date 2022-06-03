@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 *,
 ::before,
 ::after {
@@ -6,3 +7,44 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: calc(2vmin + 5px);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+/* the upper part of the site */
+.flex-banner {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+  background: red;  
+}
+.flex-banner__logo {
+  width: 20%;
+  background: brown;
+}
+.flex-banner__nav {
+  width: 20%;
+  background: blue;
+}
+.flex-banner__nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 80%;
+  list-style-type: none;
+  color: black;
+  background: green;
+}
+.flex-banner__nav__list a {
+  text-decoration: none;
+}
+/* change the color of visited link to black instead of default violet  */
+.flex-banner__nav__list :visited {
+  color: black;
+}
