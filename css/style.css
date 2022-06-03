@@ -14,22 +14,28 @@ body {
   width: 100%;
   overflow: hidden;
 }
+
 /* the upper part of the site */
+/* flexbox to split the logo and the nav at the two borders */
 .flex-banner {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: 10px auto;
+  height: 100%;
+  margin: 0 auto;
   background: red;  
 }
 .flex-banner__logo {
   width: 20%;
   background: brown;
+  padding-top: 30px;
 }
 .flex-banner__nav {
   width: 20%;
   background: blue;
+  
 }
+/* flexbox to change the behavior of the list and align horizontally the two list items */
 .flex-banner__nav__list {
   display: flex;
   justify-content: space-around;
@@ -41,10 +47,31 @@ body {
   color: black;
   background: green;
 }
-.flex-banner__nav__list a {
-  text-decoration: none;
-}
 /* change the color of visited link to black instead of default violet  */
 .flex-banner__nav__list :visited {
   color: black;
+}
+.flex-banner__nav__list li {
+  height: 100%;
+  width: 100%;
+
+}
+
+/* display block in order to transform the inline link into a box (for the hover) */
+/* adding a transparent border-top to keep the same height when we apply hover */
+.flex-banner__nav__list a {
+  display: block;
+  border-top: 5px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  /* background: green; */
+
+}
+.flex-banner__nav__list a:hover {
+  color: blue;
+  border-top: 5px solid blue;
 }
