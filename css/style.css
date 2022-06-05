@@ -80,10 +80,10 @@ body {
 }
 
 .titles__main {
-  font-size: 120%;
+  font-size: 110%;
 }
 .titles__sub {
-  font-size: 95%;
+  font-size: 90%;
   font-weight: 500;
 }
 form {
@@ -92,33 +92,57 @@ form {
   width: 100%;
 }
 .search-pannel {
+display:flex;
 height: 100%;
+width: 30%;
 font-size: 80%;
-position: relative;
+background: yellow;
 }
+
+/* The three child-elements (1 input, 2 buttons) of the form */
 .search-pannel :nth-child(1) {
- position: absolute;
- height: 100%;
- width: 5%;
+width: 13%;
+position: relative;
+text-align: center;
 }
-
-/* .search-pannel nth child 2 */
-.search-pannel :nth-child(2) {
-  position: absolute;
-  left: 5%;
+.search-pannel :nth-child(1) i {
+  /* position: absolute;
   color: red;
-  height: 100%;
-  width: 17%;
-  text-indent: 5%;
- 
-}
-.search-pannel :nth-child(3) {
- position: absolute;
- left: 22%;
- width: 10%;
- height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
 }
 
-.search-pannel i {
-  text-align: center;
+
+.search-pannel :nth-child(2) {
+width: 55%;
+  text-indent: 5%;
+}
+
+/* change the default color of the placeholder into the input */
+.search-pannel :nth-child(2)::placeholder {
+font-weight: 900;
+color: black;
+}
+
+.search-pannel :nth-child(3) {
+  width: 32%;
+  position: relative;
+}
+
+.search-pannel :nth-child(3) i {
+display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .search-pannel :nth-child(3) span {
+display: none;
+  }
+  .search-pannel :nth-child(3) i {
+    display: inline;
+    position: absolute;
+     top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); 
+  } 
 }
