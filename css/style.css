@@ -11,8 +11,10 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: calc(2vmin + 5px);
   height: 100%;
-  width: 100%;
+  width: 90%;
   overflow: hidden;
+  margin: auto;
+
 }
 
 /* the upper part of the site */
@@ -20,7 +22,7 @@ body {
 .flex-banner {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
   background: red;  
@@ -75,4 +77,48 @@ body {
 .flex-banner__nav__list a:hover {
   color: blue;
   border-top: 5px solid blue;
+}
+
+.titles__main {
+  font-size: 120%;
+}
+.titles__sub {
+  font-size: 95%;
+  font-weight: 500;
+}
+form {
+  height: 6vh;
+  background: violet;
+  width: 100%;
+}
+.search-pannel {
+height: 100%;
+font-size: 80%;
+position: relative;
+}
+.search-pannel :nth-child(1) {
+ position: absolute;
+ height: 100%;
+ width: 5%;
+}
+
+/* .search-pannel nth child 2 */
+.search-pannel :nth-child(2) {
+  position: absolute;
+  left: 5%;
+  color: red;
+  height: 100%;
+  width: 17%;
+  text-indent: 5%;
+ 
+}
+.search-pannel :nth-child(3) {
+ position: absolute;
+ left: 22%;
+ width: 10%;
+ height: 100%;
+}
+
+.search-pannel i {
+  text-align: center;
 }
