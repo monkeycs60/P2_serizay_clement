@@ -172,13 +172,45 @@ display: none;
 }
 
 .filter-pannel {
-  height: auto;
-  width: 75%;
+  height: 50%;
+  width: 85%;
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
   align-items: center;
-  border-top: 20px;
+  flex-wrap: wrap;
+  /* gap: 15%; */
+  margin-top: 20px;
+  font-size: 80%;
+  background: green;
+  font-weight: 900;
 }
 
 .filter-pannel__title {
+}
+
+/* select every div of the filter pannel (to exclude h4 title) */
+.filter-pannel div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  width: auto;
+  height: 100%;
+  background: red;
+  margin-left: 50px;
+  word-wrap: break-word;
+  padding: 20px;
+}
+
+.filter-pannel i {
+  color: blue;
+  border-radius: 50%;
+  text-align: center;
+}
+.filter-pannel p {
+ 
+}
+
+.filter-pannel__economique__logo {
+ 
 }
