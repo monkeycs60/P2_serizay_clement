@@ -85,10 +85,15 @@ body {
 .titles__sub {
   font-size: 90%;
   font-weight: 500;
+  margin-top: 10px;
+}
+
+.form-filter {
+  height: 15vh;
+  background: violet;
 }
 form {
   height: 6vh;
-  background: violet;
   width: 100%;
 }
 .search-pannel {
@@ -96,27 +101,36 @@ display:flex;
 height: 100%;
 width: 30%;
 font-size: 80%;
-background: yellow;
+margin-top: 20px;
+
 }
 
 /* The three child-elements (1 input, 2 buttons) of the form */
 .search-pannel :nth-child(1) {
 width: 13%;
 position: relative;
+border: none;
+border-radius: 20px 0 0 20px;
 text-align: center;
+background: rgb(219, 217, 217);
+border-color: rgb(219, 217, 217);
+
 }
 .search-pannel :nth-child(1) i {
-  /* position: absolute;
-  color: red;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
 }
 
 
 .search-pannel :nth-child(2) {
 width: 55%;
   text-indent: 5%;
+  /* no border on left and right, borders grey on top and bottom */
+  border: none;
+  border-top: 1px solid rgb(219, 217, 217);
+  border-bottom: 1px solid rgb(219, 217, 217);
 }
 
 /* change the default color of the placeholder into the input */
@@ -128,8 +142,17 @@ color: black;
 .search-pannel :nth-child(3) {
   width: 32%;
   position: relative;
+  color: white;
+  background: blue;
+  border: none;
+  border-radius: 0 20px 20px 0;
 }
 
+.search-pannel :nth-child(3) span {
+background: none;
+font-weight: 900;
+
+}
 .search-pannel :nth-child(3) i {
 display: none;
 }
@@ -143,6 +166,19 @@ display: none;
     position: absolute;
      top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%); 
+      transform: translate(-50%, -50%);
+      border: none; 
   } 
+}
+
+.filter-pannel {
+  height: auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 20px;
+}
+
+.filter-pannel__title {
 }
