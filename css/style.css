@@ -85,7 +85,7 @@ body {
 }
 
 .form-filter {
-  height: 15vh;
+  height: auto;
 }
 form {
   height: 5vh;
@@ -163,14 +163,17 @@ form {
 }
 
 .filter-pannel {
-  height: 30%;
-  width: 65%;
+  height: auto;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 3%;
   margin-top: 20px;
   font-size: 80%;
   font-weight: 900;
+
 }
 
 /* select every div direct child of the filter pannel (to exclude h4 title and other div children) */
@@ -189,58 +192,65 @@ form {
 
 .filter-pannel__category__logo {
   color: blue;
-  margin: 0 20px 0 0px;
+  margin-right: 20px;
   width: 70px;
   height: 120%;
   background: #deebff;
-  border-radius: 50px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .filter-pannel__category p {
   margin-right: 20px;
 }
 
-/* .filter-pannel > div {
+.info-bubble {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   gap: 20px;
-  width: auto;
-  height: 100%;
-  margin-left: 50px;
-  word-wrap: break-word;
-  border: 2px solid rgb(172, 171, 171);
-  border-radius: 50px;
-  
+  height: auto;
+  margin-top: 25px;
+  font-size: 80%;
+
 }
 
-.filter-pannel i {
-  
-  text-align: center;
+.info-bubble__logo {
+  display: block;
   color: blue;
-}
-
-.filter-pannel p {
-  
+  border: 2px solid #f2f2f2;
+  border-radius: 100%;
   height: 100%;
-  width: 100%;
-  text-align: center;
-  word-wrap: break-word;
-  margin: auto;
-  
-}
-
-.filter-pannel div > div {
-  width: auto;
-  height: 100%;
+  width: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 100%;
-  padding: 15%;
-  background: lightblue;
-  
-} */
+  padding: 5px;
+}
+
+.info-bubble__logo {
+  font-size: 75%;
+}
+
+.mid-page {
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 6%;
+  margin-top: 20px;
+
+}
+.marseille-hotels {
+  background: grey;
+  padding: 30px;
+  width: 60%;
+  height: auto;
+}
+aside {
+  width: 34%;
+  height: auto;
+  background: grey;
+}
