@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 *,
 ::before,
 ::after {
@@ -8,13 +8,12 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: calc(2vmin + 5px);
   height: 100%;
   width: 90%;
   overflow: hidden;
   margin: auto;
-
 }
 
 /* the upper part of the site */
@@ -25,7 +24,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  background: red;  
+  background: red;
 }
 .flex-banner__logo {
   width: 20%;
@@ -35,7 +34,6 @@ body {
 .flex-banner__nav {
   width: 20%;
   background: blue;
-  
 }
 /* flexbox to change the behavior of the list and align horizontally the two list items */
 .flex-banner__nav__list {
@@ -56,7 +54,6 @@ body {
 .flex-banner__nav__list li {
   height: 100%;
   width: 100%;
-
 }
 
 /* display block in order to transform the inline link into a box (for the hover) */
@@ -72,7 +69,6 @@ body {
   text-decoration: none;
   color: black;
   /* background: green; */
-
 }
 .flex-banner__nav__list a:hover {
   color: blue;
@@ -90,31 +86,28 @@ body {
 
 .form-filter {
   height: 15vh;
-  background: violet;
 }
 form {
-  height: 6vh;
+  height: 5vh;
   width: 100%;
 }
 .search-pannel {
-display:flex;
-height: 100%;
-width: 30%;
-font-size: 80%;
-margin-top: 20px;
-
+  display: flex;
+  height: 100%;
+  width: 30%;
+  font-size: 80%;
+  margin-top: 20px;
 }
 
 /* The three child-elements (1 input, 2 buttons) of the form */
 .search-pannel :nth-child(1) {
-width: 13%;
-position: relative;
-border: none;
-border-radius: 20px 0 0 20px;
-text-align: center;
-background: rgb(219, 217, 217);
-border-color: rgb(219, 217, 217);
-
+  width: 13%;
+  position: relative;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  text-align: center;
+  background: rgb(219, 217, 217);
+  border-color: rgb(219, 217, 217);
 }
 .search-pannel :nth-child(1) i {
   position: absolute;
@@ -123,9 +116,8 @@ border-color: rgb(219, 217, 217);
   transform: translate(-50%, -50%);
 }
 
-
 .search-pannel :nth-child(2) {
-width: 55%;
+  width: 55%;
   text-indent: 5%;
   /* no border on left and right, borders grey on top and bottom */
   border: none;
@@ -135,8 +127,8 @@ width: 55%;
 
 /* change the default color of the placeholder into the input */
 .search-pannel :nth-child(2)::placeholder {
-font-weight: 900;
-color: black;
+  font-weight: 900;
+  color: black;
 }
 
 .search-pannel :nth-child(3) {
@@ -149,68 +141,106 @@ color: black;
 }
 
 .search-pannel :nth-child(3) span {
-background: none;
-font-weight: 900;
-
+  background: none;
+  font-weight: 900;
 }
 .search-pannel :nth-child(3) i {
-display: none;
+  display: none;
 }
 
 @media screen and (max-width: 992px) {
   .search-pannel :nth-child(3) span {
-display: none;
+    display: none;
   }
   .search-pannel :nth-child(3) i {
     display: inline;
     position: absolute;
-     top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      border: none; 
-  } 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+  }
 }
 
 .filter-pannel {
-  height: 50%;
-  width: 85%;
+  height: 30%;
+  width: 65%;
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  /* gap: 15%; */
   margin-top: 20px;
   font-size: 80%;
-  background: green;
   font-weight: 900;
 }
 
-.filter-pannel__title {
-}
+/* select every div direct child of the filter pannel (to exclude h4 title and other div children) */
 
-/* select every div of the filter pannel (to exclude h4 title) */
-.filter-pannel div {
+.filter-pannel__category {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: 5vh;
+  border: 5px solid #f2f2f2;
+  border-left: none;
+  border-radius: 50px;
+  
+}
+
+.filter-pannel__category__logo {
+  color: blue;
+  margin: 0 20px 0 0px;
+  width: 70px;
+  height: 120%;
+  background: #deebff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-pannel__category p {
+  margin-right: 20px;
+}
+
+/* .filter-pannel > div {
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   width: auto;
   height: 100%;
-  background: red;
   margin-left: 50px;
   word-wrap: break-word;
-  padding: 20px;
+  border: 2px solid rgb(172, 171, 171);
+  border-radius: 50px;
+  
 }
 
 .filter-pannel i {
-  color: blue;
-  border-radius: 50%;
+  
   text-align: center;
-}
-.filter-pannel p {
- 
+  color: blue;
 }
 
-.filter-pannel__economique__logo {
- 
+.filter-pannel p {
+  
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  word-wrap: break-word;
+  margin: auto;
+  
 }
+
+.filter-pannel div > div {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  padding: 15%;
+  background: lightblue;
+  
+} */
