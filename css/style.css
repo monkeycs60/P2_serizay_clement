@@ -145,10 +145,9 @@ form {
   border-radius: 0 20px 20px 0;
 }
 
-.search-pannel :nth-child(3) span {
-  background: none;
-  font-weight: 900;
-}
+
+
+
 .search-pannel :nth-child(3) i {
   display: none;
 }
@@ -167,6 +166,32 @@ form {
   }
 }
 
+/******************* ANIMATION SEARCH PANNEL ************/
+.search-pannel :hover {
+  background: white;
+  color: blue;
+  border: #979696 2px solid;
+  
+}
+.search-pannel .anim :hover {
+  border: 0px transparent solid;
+  background: none;
+}
+.search-pannel button[type='submit'] :hover {
+ border: none;
+  
+}
+
+.search-pannel :nth-child(3) span {
+  background: none;
+  font-weight: 900;
+}
+
+/* ************************************************************** */
+
+
+
+/**************** FILTER PANNEL ***************/
 .filter-pannel {
   height: auto;
   width: 100%;
@@ -185,7 +210,6 @@ form {
 
 .filter-pannel__category {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   width: auto;
   height: 5vh;
@@ -194,6 +218,40 @@ form {
   border-radius: 50px;
   
 }
+
+.filter-pannel__category :hover {
+
+  color: blue;
+ 
+}
+
+.textaa {
+  width: auto;
+ 
+}
+
+@keyframes animateFilters {
+  0% {
+    transform: scale(1);
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: scale(1.1);
+    transform: rotate(-15deg);
+
+  }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+  }
+}
+
+.filter-pannel__category__logo :hover {
+  animation: animateFilters 1s ease-in-out;
+  animation-delay: 0.1s;
+  color: black;
+}
+
 
 .filter-pannel__category__logo {
   color: blue;
@@ -208,10 +266,15 @@ form {
  
 }
 
+
+
 .filter-pannel__category p {
   margin-right: 20px;
 }
 
+
+
+/***********************INFO BUBBLE *********************/
 .info-bubble {
   display: flex;
   justify-content: left;
