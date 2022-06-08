@@ -12,7 +12,7 @@ body {
   font-size: calc(2vmin + 5px);
   height: 100%;
   width: 90%;
-  overflow: hidden;
+  overflow-x: hidden;
   margin: auto;
 }
 
@@ -24,16 +24,14 @@ body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  background: red;
 }
 .flex-banner__logo {
   width: 20%;
-  background: brown;
   padding-top: 30px;
 }
 .flex-banner__nav {
   width: 20%;
-  background: blue;
+
 }
 /* flexbox to change the behavior of the list and align horizontally the two list items */
 .flex-banner__nav__list {
@@ -45,7 +43,6 @@ body {
   font-size: 80%;
   list-style-type: none;
   color: black;
-  background: green;
 }
 /* change the color of visited link to black instead of default violet  */
 .flex-banner__nav__list :visited {
@@ -243,14 +240,130 @@ form {
   margin-top: 20px;
 
 }
+
+/* *******CARDS CONTAINER - HEBERGEMENTS A MARSEILLE******* */
 .marseille-hotels {
-  background: grey;
-  padding: 30px;
+  background: #F2F2F2;
+  border-radius: 20px;
+  padding: 50px;
   width: 60%;
   height: auto;
 }
+.hotel-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+
+}
+
+.marseille-hotels__title {
+  margin-bottom: 20px;
+}
+
+.hotel-cards__hotel-card {
+background: white;
+padding: 5px;
+border-radius: 20px;
+box-shadow: 0px 0px 15px 2px grey;
+ 
+}
+.hotel-cards__hotel-card img {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  }
+.hotel-cards__hotel-card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 20px;
+  }
+
+ .hotel-cards__hotel-card__info__title {
+   font-size: 80%;
+ }
+ .hotel-cards__hotel-card__info__price {
+    font-size: 70%;
+ }
+ .hotel-cards__hotel-card__info__stars {
+    font-size: 50%;
+    color: #c9c7c7;
+ }
+ .hotel-cards__hotel-card__info__stars .blue {
+   color: blue;
+ }
+
+.marseille-hotels__bottom {
+  margin-top: 30px;
+}
+
+/* **************** ASIDE PART********************* */
 aside {
   width: 34%;
   height: auto;
-  background: grey;
+  background: #F2F2F2;
+  border-radius: 20px;
+  padding: 50px;
+}
+.most-populars {
+  width: 90%;
+  margin: auto;
+}
+
+.most-populars__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.most-populars__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  
+}
+
+
+.most-populars__cards__card {
+  display: flex;
+  background: white;
+  padding: 5px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 2px grey;
+}
+
+.most-populars__cards__card img {
+  width: 40%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.most-populars__cards__card__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
+}
+.most-populars__cards__card__description__text {
+  display: flex;
+  flex-direction: column;
+}
+.most-populars__cards__card__description__text h3 {
+  font-size: 80%;
+}
+.most-populars__cards__card__description__text p {
+  font-size: 70%;
+}
+
+.most-populars__cards__card__description__stars {
+  
+  font-size: 50%;
+  color: #c9c7c7;
+}
+.most-populars__cards__card__description__stars .blue {
+  color: blue;
 }
