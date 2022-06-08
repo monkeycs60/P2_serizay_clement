@@ -26,6 +26,8 @@ body {
 
 /* the upper part of the site */
 /* flexbox to split the logo and the nav at the two borders */
+
+
 .flex-banner {
   display: flex;
   justify-content: space-between;
@@ -80,6 +82,21 @@ body {
   border-top: 5px solid blue;
 }
 
+
+
+
+
+/* SECTION */
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
 .titles__main {
   font-size: 110%;
 }
@@ -89,9 +106,11 @@ body {
   margin-top: 10px;
 }
 
-.form-filter {
-  height: auto;
-}
+
+
+
+
+
 form {
   height: 5vh;
   width: 100%;
@@ -216,6 +235,7 @@ form {
   border: 5px solid #f2f2f2;
   border-left: none;
   border-radius: 50px;
+
   
 }
 
@@ -263,6 +283,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+  
  
 }
 
@@ -337,14 +358,14 @@ form {
 background: white;
 padding: 5px;
 border-radius: 20px;
-box-shadow: 0px 0px 15px 2px grey;
+box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.2);
  
 }
 .hotel-cards__hotel-card img {
   width: 350px;
   height: 200px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 20px 20px 0px 0px;
   }
 .hotel-cards__hotel-card__info {
   display: flex;
@@ -403,14 +424,14 @@ aside {
   background: white;
   padding: 5px;
   border-radius: 20px;
-  box-shadow: 0px 0px 15px 2px grey;
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.2);;
 }
 
 .most-populars__cards__card img {
   width: 40%;
   height: 200px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 20px 0px 0px 20px;
 }
 
 .most-populars__cards__card__description {
