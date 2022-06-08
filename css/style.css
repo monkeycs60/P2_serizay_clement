@@ -93,7 +93,7 @@ form {
   height: 100%;
   width: 30%;
   font-size: 80%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 /* The three child-elements (1 input, 2 buttons) of the form */
@@ -167,7 +167,7 @@ form {
   align-items: center;
   flex-wrap: wrap;
   gap: 3%;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 80%;
   font-weight: 900;
 
