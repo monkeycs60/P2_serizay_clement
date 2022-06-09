@@ -229,26 +229,25 @@ form {
 
 .filter-pannel__category {
   display: flex;
+  
   align-items: center;
   width: auto;
-  height: 5vh;
-  border: 5px solid #f2f2f2;
+  border: 2px solid #f2f2f2;
   border-left: none;
-  border-radius: 50px;
-
+  border-radius: 35px;
+  
   
 }
 
-.filter-pannel__category :hover {
+.filter-pannel__category:hover {
 
-  color: blue;
+  color: white;
+  background-color: blue;
+  
  
 }
 
-.textaa {
-  width: auto;
- 
-}
+
 
 @keyframes animateFilters {
   0% {
@@ -266,28 +265,29 @@ form {
   }
 }
 
-.filter-pannel__category__logo :hover {
-  animation: animateFilters 1s ease-in-out;
-  animation-delay: 0.1s;
-  color: black;
-}
 
 
 .filter-pannel__category__logo {
-  color: blue;
-  margin-right: 20px;
-  width: 70px;
-  height: 120%;
-  background: #deebff;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: blue;
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #deebff;
+  margin-left: -5px;
   
- 
 }
 
 
+.filter-pannel__category__logo:hover {
+  animation: animateFilters 1s ease-in-out;
+  animation-delay: 0.1s;
+  color: black;
+  
+}
 
 .filter-pannel__category p {
   margin-right: 20px;
@@ -335,6 +335,9 @@ form {
 
 /* *******CARDS CONTAINER - HEBERGEMENTS A MARSEILLE******* */
 .marseille-hotels {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
   background: #F2F2F2;
   border-radius: 20px;
   padding: 50px;
@@ -350,9 +353,6 @@ form {
 
 }
 
-.marseille-hotels__title {
-  margin-bottom: 20px;
-}
 
 .hotel-cards__hotel-card {
 background: white;
@@ -402,6 +402,9 @@ aside {
   padding: 50px;
 }
 .most-populars {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
   width: 90%;
   margin: auto;
 }
