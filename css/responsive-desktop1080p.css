@@ -1,0 +1,82 @@
+/* ************************** HEBERGEMENT A MARSEILLE **************************/ */
+
+
+
+/* **** decrease padding in hotel cards container*/
+.marseille-hotels { 
+    padding: 40px 0 0 0; 
+  }
+
+  .hotel-cards {
+    gap: 40px;
+  }
+
+
+/* **** decrease hotel cards image width**** */
+.hotel-cards__hotel-card img {
+    width: 290px;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    }
+
+ 
+    .marseille-hotels__bottom {
+      margin-top: 10px;
+    }
+
+    /* *************** LES PLUS POPULAIRES *************/
+
+aside {
+    padding: 40px;
+}
+
+.most-populars {
+    gap: 20px;
+  }
+
+.most-populars__cards {
+    gap: 55px;
+}
+.most-populars__cards__card img {
+    width: 140px;
+    height: 160px;
+  
+  }
+
+  .most-populars__cards__card__description {
+    padding: 20px 0 10px 20px;
+  }
+
+  /* **********ACTIVITES A MARSEILLE ***********/
+
+  .marseille-activities__cards img {
+    width: 525px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .marseille-activities__cards__card--1 img {
+    height: 600px;
+   
+  }
+  .marseille-activities__cards__card--2 img {
+    height: 275px;
+    
+  }
+  .marseille-activities__cards__card--3 img {
+    height: 200px;
+    
+   
+  }
+  .marseille-activities__cards__card--4 img {
+    height: 600px;
+    
+  }
+  .marseille-activities__cards__card--5 img {
+    height: 237.5px;
+    
+  }
+  .marseille-activities__cards__card--6 img {
+    height: 237.5px;
+    
+  }

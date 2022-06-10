@@ -361,7 +361,7 @@ form {
 
 .hotel-cards__hotel-card {
 background: white;
-padding: 5px;
+padding: 5px 0 10px 0;
 border-radius: 20px;
 box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.2);
  
@@ -419,16 +419,19 @@ aside {
   justify-content: space-between;
   margin-bottom: 30px;
 }
+
 .most-populars__cards {
   display: flex;
   flex-direction: column;
   gap: 60px;
-  
+ 
 }
 
 
 .most-populars__cards__card {
+  height: 100%;
   display: flex;
+  align-items: space-between;
   background: white;
   padding: 5px;
   border-radius: 20px;
@@ -447,10 +450,12 @@ aside {
   flex-direction: column;
   justify-content: space-between;
   padding: 5%;
+ 
 }
 .most-populars__cards__card__description__text {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 .most-populars__cards__card__description__text h3 {
   font-size: 80%;
@@ -566,6 +571,7 @@ footer {
   width: 90%;
   margin: auto;
   padding: 50px 0 50px 0;
+  
   
   
 }
