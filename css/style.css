@@ -462,3 +462,66 @@ aside {
 .most-populars__cards__card__description__stars .blue {
   color: blue;
 }
+
+/* *********** ACTIVITES A MARSEILLE ************** */
+
+.marseille-activities {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  background: green;
+}
+
+.marseille-activities__cards {
+  display: flex;
+   height: auto;
+   background: yellow;
+}
+
+
+.marseille-activities__cards img {
+  width: 350px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.marseille-activities__cards__card--1 {
+  width: 25%;
+  border:   2px solid #f2f2f2;
+}
+
+.marseille-activities__cards__card--1 img {
+  height: 600px;
+ 
+}
+.marseille-activities__cards__card--2 img {
+  height: 250px;
+  
+}
+.marseille-activities__cards__card--3 img {
+  height: 200px;
+ 
+}
+.marseille-activities__cards__card--4 img {
+  height: 600px;
+  
+}
+.marseille-activities__cards__card--5 img {
+  height: 225px;
+  
+}
+.marseille-activities__cards__card--6 img {
+  height: 225px;
+  
+}
+
+
+
+/* *********FOOTER******** */
+footer {
+  margin-top: 30px;
+}
