@@ -20,7 +20,6 @@
 .hotel-cards__hotel-card img {
     width: 290px;
     height: 165px;
-    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     }
 
@@ -32,7 +31,7 @@
     /* *************** LES PLUS POPULAIRES *************/
 
 aside {
-    padding: 40px 0 0 20px;
+    padding: 40px 30px 0 30px;
 }
 
 .most-populars {
@@ -49,7 +48,7 @@ aside {
   }
 
   .most-populars__cards__card__description {
-    padding: 20px 0 10px 20px;
+    padding: 20px 20px 10px 20px;
   }
 
   /* **********ACTIVITES A MARSEILLE ***********/
@@ -96,4 +95,5 @@ aside {
 
   .marseille-activities__cards h3 {
     margin-bottom: 20px;
+   
   }
