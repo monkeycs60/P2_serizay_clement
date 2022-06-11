@@ -361,13 +361,13 @@ form {
 
 .hotel-cards__hotel-card {
 background: white;
-padding: 5px 0 10px 0;
+padding: 5px 5px 10px 5px;
 border-radius: 20px;
 box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.2);
  
 }
 .hotel-cards__hotel-card img {
-  width: 350px;
+  width: 380px;
   height: 200px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
@@ -581,10 +581,14 @@ footer {
   font-size: 90%;
   margin-bottom: 20px;
 }
-ul {
+footer ul {
 list-style-type: none;
+display: flex;
+flex-direction: column;
+gap: 15px;
 }
 
-li {
+footer li {
 font-size: 80%;
+
 }
