@@ -12,14 +12,26 @@
     gap: 40px;
   }
 
+  .hotel-cards a {
+    width: 29%;
+    height: 42%;
+  }
+
   .hotel-cards__hotel-card {
-    padding: 5px;
+    padding: 5px; 
+    width: 100%;
+  
+
+    
   }
 
 /* **** decrease hotel cards image width**** */
 .hotel-cards__hotel-card img {
-    width: 290px;
-    height: 165px;
+    /* width: 290px;
+    height: 165px; */
+    width: 100%;
+    
+    
     border-radius: 20px 20px 0px 0px;
     }
 
