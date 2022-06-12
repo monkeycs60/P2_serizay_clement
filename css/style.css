@@ -28,7 +28,7 @@ body{
   margin: auto;
 }
 
-/* the upper part of the site */
+/* *********** the top part of the site - logo & nav ************* */
 /* flexbox to split the logo and the nav at the two borders */
 
 
@@ -82,15 +82,15 @@ body{
   /* background: green; */
 }
 .flex-banner__nav__list a:hover {
-  color: blue;
-  border-top: 5px solid blue;
+  color: #0065FC;
+  border-top: 5px solid #0065FC;
 }
 
 
 
 
 
-/* SECTION */
+/************* SECTION TITRE ET SOUS TITRE***************/
 
 .section1 {
   display: flex;
@@ -112,16 +112,16 @@ body{
 
 
 
-
+/* ***************** Formulaire SEARCH *****************/ */
 
 
 form {
-  height: 5vh;
-  width: 100%;
+  height: auto;
+  
 }
 .search-pannel {
   display: flex;
-  height: 100%;
+  height: 6vh;
   width: 30%;
   font-size: 80%;
   margin-top: 30px;
@@ -134,8 +134,8 @@ form {
   border: none;
   border-radius: 20px 0 0 20px;
   text-align: center;
-  background: rgb(219, 217, 217);
-  border-color: rgb(219, 217, 217);
+  background: #F2F2F2;
+  border-color: #F2F2F2;
 }
 .search-pannel :nth-child(1) i {
   position: absolute;
@@ -163,7 +163,7 @@ form {
   width: 32%;
   position: relative;
   color: white;
-  background: blue;
+  background: #0065FC;
   border: none;
   border-radius: 0 20px 20px 0;
 }
@@ -173,6 +173,10 @@ form {
 
 .search-pannel :nth-child(3) i {
   display: none;
+}
+.search-pannel :nth-child(3) span {
+  background: none;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 992px) {
@@ -192,7 +196,7 @@ form {
 /******************* ANIMATION SEARCH PANNEL ************/
 .search-pannel :hover {
   background: white;
-  color: blue;
+  color: #0065FC;
   border: #979696 2px solid;
   
 }
@@ -205,10 +209,6 @@ form {
   
 }
 
-.search-pannel :nth-child(3) span {
-  background: none;
-  font-weight: 900;
-}
 
 /* ************************************************************** */
 
@@ -216,8 +216,8 @@ form {
 
 /**************** FILTER PANNEL ***************/
 .filter-pannel {
-  height: auto;
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -233,26 +233,47 @@ form {
 
 .filter-pannel__category {
   display: flex;
-  
+  height: 5vh;
   align-items: center;
   width: auto;
   border: 2px solid #f2f2f2;
   border-left: none;
-  border-radius: 35px;
-  
+  border-radius: 35px; 
+}
+
+
+.filter-pannel__category p {
+  margin-right: 20px;
+}
+
+.filter-pannel__category__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0065FC;
+  margin-right: 20px;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  background: #deebff;
+  margin-left: -5px;
   
 }
+
+/*********FILTER ANIMATIONS ********* */
+
 
 .filter-pannel__category:hover {
 
   color: white;
-  background-color: blue;
-  
+  background-color: #0065FC;
  
 }
-
-
-
+.filter-pannel__category__logo:hover {
+  animation: animateFilters 1s ease-in-out;
+  animation-delay: 0.1s;
+  color: black;
+}
 @keyframes animateFilters {
   0% {
     transform: scale(1);
@@ -271,33 +292,6 @@ form {
 
 
 
-.filter-pannel__category__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: blue;
-  margin-right: 20px;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background: #deebff;
-  margin-left: -5px;
-  
-}
-
-
-.filter-pannel__category__logo:hover {
-  animation: animateFilters 1s ease-in-out;
-  animation-delay: 0.1s;
-  color: black;
-  
-}
-
-.filter-pannel__category p {
-  margin-right: 20px;
-}
-
-
 
 /***********************INFO BUBBLE *********************/
 .info-bubble {
@@ -313,7 +307,7 @@ form {
 
 .info-bubble__logo {
   display: block;
-  color: blue;
+  color: #0065FC;
   border: 2px solid #f2f2f2;
   border-radius: 100%;
   height: 100%;
@@ -391,7 +385,7 @@ box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.2);
     color: #c9c7c7;
  }
  .hotel-cards__hotel-card__info__stars .blue {
-   color: blue;
+   color: #0065FC;
  }
 
 .marseille-hotels__bottom {
@@ -470,7 +464,7 @@ aside {
   color: #c9c7c7;
 }
 .most-populars__cards__card__description__stars .blue {
-  color: blue;
+  color: #0065FC;
 }
 
 /* *********** ACTIVITES A MARSEILLE ************** */
