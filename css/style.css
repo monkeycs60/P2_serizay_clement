@@ -349,8 +349,11 @@ background: white;
 padding: 5px 5px 10px 5px;
 border-radius: 20px;
 box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.2);
- 
 }
+.hotel-cards__hotel-card:hover {
+  color: #0065FC;
+}
+
 .hotel-cards__hotel-card img {
   width: 380px;
   height: 200px;
