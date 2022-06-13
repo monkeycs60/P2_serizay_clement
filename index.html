@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive-desktop1080p.css" media="only screen and (max-width: 1920px)" />
     <link rel="stylesheet" href="./css/responsive-laptop.css" media="only screen and (max-width: 1440px)" />
+    <link rel="stylesheet" href="./css/responsive-tablet.css" media="only screen and (max-width: 992px)" />
     <title>Booki</title>
 </head>
 
@@ -20,7 +21,16 @@
 
             <div class="flex-banner__logo">
                 <a href="#">
-                    <img src="./images/logo/Booki.png" alt="Booki logo">
+                    <img src="./images/logo/Booki.png" alt="Booki logo" srcset="
+    
+                    ./images/logo/Booki.png 190w,
+                    ./images/logo/Booki@3x.png 285w,
+                    "
+                    sizes="
+                    (max-width: 992px) 285px,
+                    190px
+                    ">
+    
                 </a>
             </div>
             <nav class="flex-banner__nav">
@@ -323,7 +333,14 @@
                     <div class="flex-container-2">
                         <a href="#">
                             <div class="marseille-activities__cards__card marseille-activities__cards__card--2">
-                                <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+                                <img alt="Fort de Pomègues" src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" srcset="/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg 710w,
+                                ./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg 350w,
+                                "
+                                sizes="
+                                (max-width: 1920px) 350px,
+                                (max-width: 992px) 710px
+                                
+                                ">
                                 <h3
                                     class="marseille-activities__cards__card_title hotel-cards__hotel-card__info__title">
                                     Fort de Pomègues</h3>
@@ -343,7 +360,15 @@
                         <a href="#">
                             <div class="marseille-activities__cards__card marseille-activities__cards__card--4">
                                 <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                                    alt="Parc National des Calanques">
+                                    alt="Parc National des Calanques" srcset="
+                                    /images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 1210w,
+                                    /images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 605w,
+                                    "
+                                    sizes="
+                                    (max-width: 1920px) 605px,
+                                    (max-width: 992px) 1210px
+
+                                    ">
                                 <h3
                                     class="marseille-activities__cards__card_title hotel-cards__hotel-card__info__title">
                                     Parc National des Calanques</h3>
@@ -361,7 +386,15 @@
                         </a>
                         <a href="#">
                             <div class="marseille-activities__cards__card marseille-activities__cards__card--6">
-                                <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
+                                <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp" srcset="
+                                ./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg 1000w,
+                                ./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg 500w,
+                                "
+                                sizes="
+                                (max-width: 1920px) 500px,
+                                (max-width: 992px) 1000px
+                               
+                                ">
                                 <h3
                                     class="marseille-activities__cards__card_title hotel-cards__hotel-card__info__title">
                                     Parc Longchamp</h3>

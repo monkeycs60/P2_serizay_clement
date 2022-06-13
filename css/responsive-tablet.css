@@ -1,0 +1,258 @@
+/* width of the page */
+
+
+
+.body-container {
+  width: 100%;
+  margin: auto;
+}
+
+/* top of the page - logo & navbar */
+.flex-banner {
+  flex-direction: column;
+}
+
+.flex-banner__logo {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+.flex-banner__nav {
+  width: 100%;
+  height: 5vh;
+}
+
+.flex-banner__nav__list a {
+  border-bottom: 5px solid #f2f2f2;
+}
+
+.flex-banner__nav__list a:hover {
+  color: #0065fc;
+  border-bottom: 5px solid #0065fc;
+  border-top: 5px solid transparent;
+}
+
+
+
+/* SECTION 1 - TITTLES */
+
+.section1 {
+  width: 90%;
+  margin: auto;
+  margin-top: 3.5vh;
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 0px;
+}
+
+
+/* FORMULAIRE SEARCH */
+
+
+.search-pannel {
+  height: 6vh;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.search-pannel :nth-child(2)::placeholder {
+  text-indent: 10%;
+}
+
+.search-pannel :nth-child(1) {
+  width: 15%;
+}
+.search-pannel :nth-child(2) {
+  width: 70%;
+}
+.search-pannel :nth-child(3) {
+  width: 15%;
+  
+}
+
+.search-pannel :nth-child(3) span {
+  display: none;
+}
+.search-pannel :nth-child(3) i {
+  display: inline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+}
+
+
+
+
+/* FILTRE pannel */
+.filter-pannel {
+  
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 3%;
+  margin-top: 0px;
+  height: 14vh;
+}
+
+.filter-pannel__title {
+  width: 100%;
+  text-align: left;
+}
+.filter-pannel__category {
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  width: auto;
+  border: 2px solid #f2f2f2;
+  border-left: none;
+  border-radius: 35px; 
+}
+
+.filter-pannel__category p {
+  margin-left: 0px;
+  text-align: left;
+  font-size: 90%;
+}
+
+
+
+/* INFO BUBBLE */
+
+.info-bubble {
+  margin-top: 0px;
+  font-size: 70%;
+}
+
+/* CONTAINER MID-PAGE */
+.mid-page {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 0 0 0 0;
+}
+
+
+/* HEBERGEMENT A MARSEILLE */
+
+.marseille-hotels__title {
+  margin: auto;
+}
+
+.marseille-hotels {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  background: white;
+  width: 100%;
+  height: auto;
+}
+
+.hotel-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 45px;
+}
+
+.hotel-cards__hotel-card img {
+  object-fit: cover;
+  width: 40vw;
+  height: 22vh;
+  border-radius: 20px 20px 0px 0px;
+  }
+
+  .hotel-cards__hotel-card__info {
+  margin-left: 0.5vh;
+  font-size: 100%;
+  }
+  .marseille-hotels__bottom {
+    margin-top: 10px;
+  }
+
+
+
+  /* ASIDE - MOST POPULARS */
+
+
+  aside {
+    width: 100%;
+    background: #F2F2F2;
+    border-radius: 20px;
+    padding: 50px;
+    
+  }
+
+  .most-populars__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+    height: auto;
+  }
+
+  
+  .most-populars__cards__card {
+width: 100%;
+
+  }
+  .most-populars__cards__card img {
+    /* width: 25vw; */
+    width: 40%;
+    height: 17vh; 
+  }
+
+
+  .most-populars__cards__card__description {
+    padding: 10px 20px 10px 10px;
+    font-size: 110%;
+    width: 60%;
+    text-align: right;
+  }
+
+  /* ACTIVITES A MARSEILLE */
+
+  .marseille-activities__cards {
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    width: 70%;
+    height: auto;
+    margin: auto;
+  }
+
+
+  .marseille-activities__cards img {
+    width: 100%;
+    height: 30vh;
+  }
+  
+  .flex-container-2, .flex-container-4 {
+    gap: 50px;
+
+  }
+
+  /* FOOTER */
+  
+  .footer-title {
+    font-size: 80%;
+    margin-bottom: 10PX;
+  }
+
+  footer li {
+    font-size: 70%;
+    }

@@ -2,6 +2,8 @@
 
 /* ******div mid-page ****** */
 
+
+
 .mid-page {
 gap: 10px;
 }
@@ -73,6 +75,7 @@ aside {
 
   .most-populars__cards__card__description {
     padding: 10px 20px 10px 20px;
+    width: 50%;
   }
 
   /* **********ACTIVITES A MARSEILLE ***********/

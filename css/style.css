@@ -28,6 +28,7 @@ body{
   margin: auto;
 }
 
+
 /* *********** the top part of the site - logo & nav ************* */
 /* flexbox to split the logo and the nav at the two borders */
 
@@ -39,10 +40,16 @@ body{
   height: 100%;
   margin: 0 auto;
 }
+
+
+
+
+
 .flex-banner__logo {
   width: 20%;
   padding-top: 30px;
 }
+
 .flex-banner__nav {
   width: 20%;
 
@@ -90,7 +97,7 @@ body{
 
 
 
-/************* SECTION TITRE ET SOUS TITRE***************/
+/* ************ SECTION TITRE ET SOUS TITRE************** */
 
 .section1 {
   display: flex;
@@ -98,8 +105,9 @@ body{
   gap: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
-
 }
+
+
 
 .titles__main {
   font-size: 110%;
@@ -179,19 +187,7 @@ form {
   font-weight: 900;
 }
 
-@media screen and (max-width: 992px) {
-  .search-pannel :nth-child(3) span {
-    display: none;
-  }
-  .search-pannel :nth-child(3) i {
-    display: inline;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: none;
-  }
-}
+
 
 /******************* ANIMATION SEARCH PANNEL ************/
 .search-pannel :hover {
@@ -565,7 +561,6 @@ footer {
   width: 90%;
   margin: auto;
   padding: 50px 0 50px 0;
-  
   
   
 }
