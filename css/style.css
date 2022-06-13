@@ -120,13 +120,9 @@ body{
 
 
 
-/* ***************** Formulaire SEARCH *****************/ */
+/* ***************** Formulaire SEARCH **************** */
 
 
-form {
-  height: auto;
-  
-}
 .search-pannel {
   display: flex;
   height: 6vh;
@@ -143,7 +139,6 @@ form {
   border-radius: 20px 0 0 20px;
   text-align: center;
   background: #F2F2F2;
-  border-color: #F2F2F2;
 }
 .search-pannel :nth-child(1) i {
   position: absolute;
@@ -421,7 +416,6 @@ aside {
 .most-populars__cards__card {
   height: 100%;
   display: flex;
-  align-items: space-between;
   background: white;
   padding: 5px;
   border-radius: 20px;
