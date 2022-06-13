@@ -1,0 +1,287 @@
+/* top of the page - logo & navbar */
+.flex-banner {
+  flex-direction: column;
+}
+
+.flex-banner__logo {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+.flex-banner__logo a {
+  width: 30%;
+  transform: translateX(15%);
+}
+
+.flex-banner__logo img {
+
+  width: 100%;
+  margin: auto;
+}
+
+.flex-banner__nav {
+  width: 100%;
+  height: 10vh;
+  font-size: 170%;
+  
+}
+
+.flex-banner__nav__list a {
+  border-bottom: 3px solid #f2f2f2;
+}
+
+.flex-banner__nav__list a:hover {
+  color: #0065fc;
+  border-bottom: 3px solid #0065fc;
+  border-top: 3px solid transparent;
+}
+
+/* SECTION 1 - TITTLES */
+
+.section1 {
+  width: 90%;
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+  gap: 30px;
+  margin-bottom: 0px;
+}
+
+/* TITLE AND SUBTITLE   */
+.titles {
+  font-size: 170%;
+  text-align: left;
+
+}
+.titles__main {
+  font-weight: 900;
+}
+
+.titles__sub {
+font-size: 85%;
+}
+
+
+/* FORMULAIRE SEARCH */
+
+.search-pannel {
+  height: 8vh;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.search-pannel :nth-child(2)::placeholder {
+  font-size: 180%;
+}
+
+.search-pannel :nth-child(1) {
+  border-radius: 15px 0px 0px 15px;
+  font-size: 130%;
+}
+
+.search-pannel :nth-child(3) {
+  border-radius: 15px;
+  transform: translateX(-20%);
+}
+
+
+.search-pannel :nth-child(3) i {
+  font-size: 180%;
+}
+
+/* FILTRE pannel */
+.filter-pannel {
+  margin-top: 0px;
+  height: auto;
+  font-size: 140%;
+}
+
+
+.filter-pannel__category {
+ 
+  height: 7vh;
+  width: auto;
+  margin-top: 10px;
+}
+.filter-pannel__category__logo {
+
+  width: 6vh;
+  height: 7vh;
+}
+
+
+/* INFO BUBBLE */
+
+.info-bubble {
+  margin-top: 0px;
+  font-size: 110%;
+  text-align: left;
+}
+
+.info-bubble__logo {
+  width: 25px;
+  font-weight: 900;
+}
+
+
+/* CONTAINER MID PAGE */
+.mid-page {
+  display: flex;
+  flex-flow: column-reverse;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  gap: 5%;
+  margin: 20px 0 40px 0;
+}
+
+/* ASIDE - MOST POPULARS */
+
+aside {
+  width: 100%;
+  padding: 30px 20px 40px 20px;
+  border-radius: 0;
+ 
+}
+.most-populars {
+  width: 100%;
+  gap: 0px;
+}
+
+.most-populars__top {
+  font-size: 170%;
+  width: 100%;
+}
+
+.most-populars__cards {
+  gap: 30px;
+  width: 100%;
+  height: auto;
+
+}
+
+.most-populars__cards__card {
+  width: 100%;
+}
+.most-populars__cards__card img {
+  height: 18vh;
+}
+
+.most-populars__cards__card__description {
+  padding: 10px 20px 10px 15px;
+  font-size: 150%;
+  text-align: left;
+}
+
+/* HEBERGEMENT A MARSEILLE */
+
+.marseille-hotels__title {
+  font-size: 170%;
+  text-align: left;
+  width: 100%;
+  
+}
+
+.marseille-hotels {
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  padding: 30px 20px 0px 20px;
+  border-radius: 0;
+}
+
+.hotel-cards {
+  gap: 15px;
+  width: 100%;
+}
+.hotel-cards a {
+  width: 100%;
+}
+.hotel-cards__hotel-card {
+  width: 100%;
+  height: auto;
+}
+
+.hotel-cards__hotel-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 16vh;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.hotel-cards__hotel-card__info {
+  margin-left: 1vh;
+  font-size: 150%;
+}
+.marseille-hotels__bottom {
+  margin-top: 10px;
+  font-size: 130%;
+}
+
+
+/* ACTIVITES A MARSEILLE */
+
+.marseille-activities {
+  margin-top: 0;
+  width: 100%;
+  padding: 0 20px 40px 20px;
+  border-radius: 0;
+}
+.marseille-activities__title {
+  font-size: 170%;
+  
+}
+.marseille-activities__cards {
+  font-size: 150%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.marseille-activities__cards img {
+  width: 100%;
+  height: 20vh;
+}
+
+.flex-container-2,
+.flex-container-4 {
+  gap: 30px;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 0;
+  font-size: 150%;
+}
+.footer-title {
+  font-size: 80%;
+  margin-bottom: 10px;
+}
+.footer-container {
+  display: flex;
+  flex-flow: column;
+  gap: 17%;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 30px;
+  
+  
+}
+footer li {
+  font-size: 70%;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+  }
