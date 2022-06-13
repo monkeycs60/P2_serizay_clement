@@ -21,15 +21,11 @@
 
             <div class="flex-banner__logo">
                 <a href="#">
-                    <img src="./images/logo/Booki.png" alt="Booki logo" srcset="
-    
-                    ./images/logo/Booki.png 190w,
-                    ./images/logo/Booki@3x.png 285w,
-                    " sizes="
-                    (max-width: 992px) 285px,
-                    190px
-                    ">
-
+                    <picture>
+                        <source srcset="./images/logo/Booki@3x.png" media="(max-width: 992px)">
+                        <source srcset="./images/logo/Booki.png" media="(min-width: 993px)">
+                        <img src="./images/logo/Booki.png" alt="Booki logo">
+                    </picture>
                 </a>
             </div>
             <nav class="flex-banner__nav">
@@ -322,7 +318,7 @@
                 </div>
             </section>
 
-            <section class="marseille-activities"  id="activites">
+            <section class="marseille-activities" id="activites">
 
                 <h2 class="marseille-activities__title marseille-hotels__title titles__main">Activités à Marseille</h2>
                 <div class="marseille-activities__cards">
@@ -330,7 +326,7 @@
                         <a href="#">
                             <div class="marseille-activities__cards__card marseille-activities__cards__card--1">
                                 <img class="img1"
-                                    src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                    src="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                                     alt="Vieux Port">
                                 <h3
                                     class="marseille-activities__cards__card_title hotel-cards__hotel-card__info__title">
@@ -341,14 +337,14 @@
                     <div class="flex-container-2">
                         <a href="#">
                             <div class="marseille-activities__cards__card marseille-activities__cards__card--2">
-                                <img alt="Fort de Pomègues"
-                                    src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" srcset="./images/activites/3_medium/TESTIMAGE123123.jpg 710w,
-                                ./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg 350w,
-                                " sizes="
-                                (max-width: 1920px) 350px,
-                                (max-width: 992px) 710px
-                                
-                                ">
+                                <picture>
+                                    <source media="(min-width: 993px)"
+                                        srcset="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                                    <source media="(max-width: 992px)"
+                                        srcset="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                                    <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                        alt="Fort de Pomègues">
+                                </picture>
                                 <h3
                                     class="marseille-activities__cards__card_title hotel-cards__hotel-card__info__title">
                                     Fort de Pomègues</h3>
@@ -368,15 +364,8 @@
                     <div class="flex-container-3">
                         <a href="#">
                             <div class="marseille-activities__cards__card marseille-activities__cards__card--4">
-                                <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                                    alt="Parc National des Calanques" srcset="
-                                    /images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 1210w,
-                                    /images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 605w,
-                                    " sizes="
-                                    (max-width: 1920px) 605px,
-                                    (max-width: 992px) 1210px
-
-                                    ">
+                                <img src="./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                                    alt="Parc National des Calanques">
                                 <h3
                                     class="marseille-activities__cards__card_title hotel-cards__hotel-card__info__title">
                                     Parc National des Calanques</h3>
@@ -395,15 +384,14 @@
                         </a>
                         <a href="#">
                             <div class="marseille-activities__cards__card marseille-activities__cards__card--6">
-                                <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                                    alt="Parc Longchamp" srcset="
-                                ./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg 1000w,
-                                ./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg 500w,
-                                " sizes="
-                                (max-width: 1920px) 500px,
-                                (max-width: 992px) 1000px
-                               
-                                ">
+                                <picture>
+                                    <source media="(min-width: 993px)"
+                                        srcset="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                                    <source media="(max-width: 992px)"
+                                        srcset="./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                                    <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                        alt="Parc Longchamp">
+                                </picture>
                                 <h3
                                     class="marseille-activities__cards__card_title hotel-cards__hotel-card__info__title">
                                     Parc Longchamp</h3>
