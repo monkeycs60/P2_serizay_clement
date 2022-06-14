@@ -62,6 +62,7 @@
 
 .search-pannel :nth-child(2)::placeholder {
   text-indent: 10%;
+  font-size: 120%;
 }
 
 .search-pannel :nth-child(1) {
