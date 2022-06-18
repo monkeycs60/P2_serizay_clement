@@ -426,8 +426,10 @@ aside {
 }
 
 .most-populars__cards__card img {
-  width: 40%;
-  height: 200px;
+  /* width: 40%;
+  height: 200px; */
+  width: 16vh;
+  height: 16vh;
   object-fit: cover;
   border-radius: 20px 0px 0px 20px;
 }
