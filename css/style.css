@@ -528,6 +528,15 @@ aside {
   height: 160px;
  
 }
+
+.img-bg {
+  background-image: url("/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  width: 300px;
+  height: 130px;
+  background-size: 310px;
+  border-radius: 20px 20px 0px 0px;
+  
+}
 .marseille-activities__cards__card--4 img {
   height: 460px;
   
