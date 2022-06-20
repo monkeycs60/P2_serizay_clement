@@ -22,8 +22,8 @@
 
 .flex-banner__nav {
   width: 100%;
-  height: 10vh;
-  font-size: 170%;
+  height: 70px;
+  font-size: 200%;
   
 }
 
@@ -42,10 +42,11 @@
 .section1 {
   width: 90%;
   margin: auto;
-  margin-top: 5vh;
+  margin-top: 40px;
   text-align: center;
   gap: 30px;
   margin-bottom: 0px;
+  font-size: 140%;
 }
 
 /* TITLE AND SUBTITLE   */
@@ -56,20 +57,22 @@
 }
 .titles__main {
   font-weight: 900;
+  
 }
 
 .titles__sub {
-font-size: 85%;
+font-size: 65%;
 }
 
 
 /* FORMULAIRE SEARCH */
 
 .search-pannel {
-  height: 8vh;
+  height: 55px;
   width: 100%;
   margin: auto;
   margin-top: 10px;
+  font-size: 60%;
 }
 
 .search-pannel :nth-child(2)::placeholder {
@@ -94,21 +97,22 @@ font-size: 85%;
 /* FILTRE pannel */
 .filter-pannel {
   margin-top: 0px;
-  height: auto;
-  font-size: 140%;
+  height: 230px;
+  font-size: 100%;
 }
 
 
 .filter-pannel__category {
  
-  height: 7vh;
+  height: 50px;
   width: auto;
   margin-top: 10px;
+  gap: 5px;
 }
 .filter-pannel__category__logo {
 
-  width: 6vh;
-  height: 7vh;
+  width: 50px;
+  height: 50px;
 }
 
 
@@ -116,13 +120,16 @@ font-size: 85%;
 
 .info-bubble {
   margin-top: 0px;
-  font-size: 110%;
+  font-size: 90%;
   text-align: left;
+  
 }
 
 .info-bubble__logo {
   width: 25px;
   font-weight: 900;
+  font-size: 70%;
+  margin-top: -15px;
 }
 
 
@@ -147,7 +154,7 @@ aside {
 }
 .most-populars {
   width: 100%;
-  gap: 0px;
+  gap: 20px;
 }
 
 .most-populars__top {
@@ -166,19 +173,20 @@ aside {
   width: 100%;
 }
 .most-populars__cards__card img {
-  height: 18vh;
+ 
+  height: 140px;
 }
 
 .most-populars__cards__card__description {
   padding: 10px 20px 10px 15px;
-  font-size: 150%;
+  font-size: 160%;
   text-align: left;
 }
 
 /* HEBERGEMENT A MARSEILLE */
 
 .marseille-hotels__title {
-  font-size: 170%;
+  font-size: 140%;
   text-align: left;
   width: 100%;
   
@@ -190,6 +198,7 @@ aside {
   height: auto;
   padding: 30px 20px 0px 20px;
   border-radius: 0;
+  font-size: 97%;
 }
 
 .hotel-cards {
@@ -207,17 +216,19 @@ aside {
 .hotel-cards__hotel-card img {
   object-fit: cover;
   width: 100%;
-  height: 16vh;
+  height: 120px;
   border-radius: 20px 20px 0px 0px;
 }
 
 .hotel-cards__hotel-card__info {
-  margin-left: 1vh;
+  margin-left: 10px;
   font-size: 150%;
+  gap: 5px;
+  padding: 5px;
 }
 .marseille-hotels__bottom {
   margin-top: 10px;
-  font-size: 130%;
+  font-size: 120%;
 }
 
 
@@ -230,11 +241,11 @@ aside {
   border-radius: 0;
 }
 .marseille-activities__title {
-  font-size: 170%;
+  font-size: 137%;
   
 }
 .marseille-activities__cards {
-  font-size: 150%;
+  font-size: 147%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -245,9 +256,58 @@ aside {
   margin: auto;
 }
 
-.marseille-activities__cards img {
+.img-bg1 {
+  background-image: url("/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
   width: 100%;
-  height: 20vh;
+  height: 150px;
+  background-position: top 25% left 55%;
+  background-size: 400px;
+}
+
+.img-bg2 {
+  background-image: url("/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-position: left 40%;
+  
+}
+
+.img-bg3 {
+  background-image: url("/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 340px;
+  
+}
+
+.img-bg4 {
+  background-image: url("/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  width: 100%;
+  height: 150px;
+  background-position: 53% 20%;
+  background-size: 350px;
+  background-repeat: no-repeat;
+  
+}
+
+.img-bg5 {
+  background-image: url("/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  width: 100%;
+  height: 150px;
+  background-position: 50% 10%;
+  background-size: 350px;
+ 
+}
+
+.img-bg6 {
+  background-image: url("/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  width: 100%;
+  height: 150px;
+  background-position: top 20% left 70%;
+  background-size: 350px;
+
 }
 
 .flex-container-2,
