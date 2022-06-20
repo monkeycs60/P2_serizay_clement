@@ -118,7 +118,7 @@ body {
 
 .search-pannel {
   display: flex;
-  height: 55px;
+  height: 60px;
   width: 43%;
   font-size: 70%;
   margin-top: 30px;
@@ -265,7 +265,7 @@ body {
   gap: 20px;
   height: auto;
   margin-top: 25px;
-  font-size: 70%;
+  font-size: 65%;
 }
 
 .info-bubble__logo {
