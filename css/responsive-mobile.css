@@ -4,21 +4,14 @@
 }
 
 .flex-banner__logo {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
+  width: 150px;
+  margin: auto;
+  background-image: url("/images/logo/Booki.png");
+  height: 100px;
   padding: 20px;
 }
-.flex-banner__logo a {
-  width: 30%;
-  transform: translateX(15%);
-}
 
-.flex-banner__logo img {
 
-  width: 100%;
-  margin: auto;
-}
 
 .flex-banner__nav {
   width: 100%;
@@ -44,7 +37,7 @@
   margin: auto;
   margin-top: 40px;
   text-align: center;
-  gap: 30px;
+  gap: 10px;
   margin-bottom: 0px;
   font-size: 140%;
 }
@@ -96,8 +89,8 @@ font-size: 65%;
 
 /* FILTRE pannel */
 .filter-pannel {
-  margin-top: 0px;
-  height: 230px;
+  margin-top: 10px;
+  height: 260px;
   font-size: 100%;
 }
 
@@ -119,7 +112,7 @@ font-size: 65%;
 /* INFO BUBBLE */
 
 .info-bubble {
-  margin-top: 0px;
+  margin-top: 5px;
   font-size: 90%;
   text-align: left;
   
@@ -261,7 +254,7 @@ aside {
   width: 100%;
   height: 150px;
   background-position: top 25% left 55%;
-  background-size: 400px;
+  background-size: cover;
 }
 
 .img-bg2 {
@@ -278,7 +271,9 @@ aside {
   width: 100%;
   height: 150px;
   background-repeat: no-repeat;
-  background-size: 340px;
+  /* background-size: 440px; */
+  background-size: cover;
+  background-position: top 25% left 20%;
   
 }
 
@@ -287,7 +282,7 @@ aside {
   width: 100%;
   height: 150px;
   background-position: 53% 20%;
-  background-size: 350px;
+  background-size: cover;
   background-repeat: no-repeat;
   
 }
@@ -297,7 +292,7 @@ aside {
   width: 100%;
   height: 150px;
   background-position: 50% 10%;
-  background-size: 350px;
+  background-size: cover;
  
 }
 
@@ -306,7 +301,7 @@ aside {
   width: 100%;
   height: 150px;
   background-position: top 20% left 70%;
-  background-size: 350px;
+  background-size: cover;
 
 }
 

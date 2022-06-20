@@ -10,13 +10,14 @@
 /* top of the page - logo & navbar */
 .flex-banner {
   flex-direction: column;
+  gap: 10px;
 }
 
 .flex-banner__logo {
-  width: 100%;
+  width: 300px;
   margin: auto;
-  display: flex;
-  justify-content: center;
+  background-image: url("/images/logo/Booki@3x.png");
+  height: 130px;
 }
 
 
