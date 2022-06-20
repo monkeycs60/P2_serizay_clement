@@ -45,7 +45,7 @@ body {
 .flex-banner__logo {
   width: 20%;
   padding-top: 30px;
-  background-image: url("/images/logo/Booki.png");
+  background-image: url("../images/logo/Booki.png");
   background-size: cover;
   height: 110px;
  
@@ -326,7 +326,7 @@ body {
 
 .hotel-cards__hotel-card img {
   width: 225px;
-  height: 120px;
+  height: 125px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
@@ -354,6 +354,7 @@ body {
 
 .marseille-hotels__bottom {
   margin-top: 30px;
+  font-size: 70%;
 }
 
 /* **************** ASIDE PART********************* */
@@ -476,7 +477,7 @@ aside {
 }
 
 .img-bg1 {
-  background-image: url("/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-image: url("../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
   width: 300px;
   height: 460px;
   background-position: top 20% left 55%;
@@ -486,7 +487,7 @@ aside {
 }
 
 .img-bg2 {
-  background-image: url("/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  background-image: url("../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
   width: 300px;
   height: 230px;
   background-position: 30% 35%;
@@ -494,7 +495,7 @@ aside {
 }
 
 .img-bg3 {
-  background-image: url("/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  background-image: url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
   width: 300px;
   height: 130px;
   background-size: 300px;
@@ -502,7 +503,7 @@ aside {
 }
 
 .img-bg4 {
-  background-image: url("/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  background-image: url("../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
   width: 300px;
   height: 460px;
   background-position: 53% 50%;
@@ -512,7 +513,7 @@ aside {
 }
 
 .img-bg5 {
-  background-image: url("/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  background-image: url("../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
   height: 180px;
   width: 300px;
   background-position: 50% 10%;
@@ -522,7 +523,7 @@ aside {
 }
 
 .img-bg6 {
-  background-image: url("/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  background-image: url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
   height: 180px;
   width: 300px;
   background-position: top 0 left 70%;
